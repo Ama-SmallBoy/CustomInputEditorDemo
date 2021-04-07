@@ -49,7 +49,6 @@
 		047108842612F4A100B92403 /* JZTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047108832612F4A100B92403 /* JZTextInputView.m */; };
 		0471089226131A7900B92403 /* JZImageTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471089126131A7900B92403 /* JZImageTextInputView.m */; };
 		0471089926132E9600B92403 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471089826132E9600B92403 /* TextViewController.m */; };
-		0476EC28261D7F5D004206D5 /* JZInputImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476EC27261D7F5D004206D5 /* JZInputImageView.m */; };
 		047C992925FB450300C98F5C /* UTHudUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C992725FB450300C98F5C /* UTHudUtil.m */; };
 		047C992F25FB456000C98F5C /* GifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C992D25FB456000C98F5C /* GifView.m */; };
 		04D0C3AA2611DEFB009ED7AB /* UITextView+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D0C3A92611DEFB009ED7AB /* UITextView+Keyboard.m */; };
@@ -158,8 +157,6 @@
 		0471089126131A7900B92403 /* JZImageTextInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZImageTextInputView.m; sourceTree = "<group>"; };
 		0471089726132E9600B92403 /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		0471089826132E9600B92403 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
-		0476EC26261D7F5D004206D5 /* JZInputImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZInputImageView.h; sourceTree = "<group>"; };
-		0476EC27261D7F5D004206D5 /* JZInputImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZInputImageView.m; sourceTree = "<group>"; };
 		047C991225FB403000C98F5C /* CustomInputeditorDemo-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomInputeditorDemo-PrefixHeader.pch"; sourceTree = "<group>"; };
 		047C992725FB450300C98F5C /* UTHudUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTHudUtil.m; sourceTree = "<group>"; };
 		047C992825FB450300C98F5C /* UTHudUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTHudUtil.h; sourceTree = "<group>"; };
@@ -388,8 +385,6 @@
 				047108832612F4A100B92403 /* JZTextInputView.m */,
 				0471089026131A7900B92403 /* JZImageTextInputView.h */,
 				0471089126131A7900B92403 /* JZImageTextInputView.m */,
-				0476EC26261D7F5D004206D5 /* JZInputImageView.h */,
-				0476EC27261D7F5D004206D5 /* JZInputImageView.m */,
 			);
 			path = JZTextView;
 			sourceTree = "<group>";
@@ -606,7 +601,6 @@
 				0457E17B24B30AD000D928AA /* JZPhotoFlowListView.m in Sources */,
 				0457E16324B2FE9C00D928AA /* TZProgressView.m in Sources */,
 				0457E18C24B3116C00D928AA /* PlaceholderTextView.m in Sources */,
-				0476EC28261D7F5D004206D5 /* JZInputImageView.m in Sources */,
 				045644662574C542006D1102 /* CSAlertView.m in Sources */,
 				0457E18424B30F3300D928AA /* CSToolBarCell.m in Sources */,
 				0457E10824B2FC5A00D928AA /* AppDelegate.m in Sources */,

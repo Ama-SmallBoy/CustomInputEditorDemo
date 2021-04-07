@@ -32,4 +32,8 @@
     return _imageTextInputView;
 }
 
+- (void)dealloc {
+
+}
+
 @end

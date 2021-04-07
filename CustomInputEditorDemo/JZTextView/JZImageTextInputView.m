@@ -21,7 +21,6 @@ static CGFloat const kNECourseTestTableViewCellImageRightSpace = 16.0;
 @property (nonatomic, strong) JZPhotoFlowListView *photoFlowListView;
 
 @property (nonatomic, strong) UIScrollView *scrollView;
-@property (nonatomic, strong) UIView *scrollContentView;
 @property(nonatomic, assign) CGFloat headHeight;
 
 @end
@@ -40,7 +39,6 @@ static CGFloat const kNECourseTestTableViewCellImageRightSpace = 16.0;
 
 - (void)addSubviews {
     [self addSubview:self.scrollView];
-    [self addSubview:self.scrollView];
     [self.scrollView addSubview:self.textInputView];
     [self.scrollView addSubview:self.photoFlowListView];
 }
@@ -49,11 +47,11 @@ static CGFloat const kNECourseTestTableViewCellImageRightSpace = 16.0;
     
     [self.scrollView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(self);
-        make.bottom.mas_equalTo(self);
+//        make.bottom.mas_equalTo(self);
         make.height.mas_equalTo(SCREEN_HEIGHT);
         make.width.mas_equalTo(SCREEN_WIDTH);
     }];
-       
+    
     [self.textInputView mas_remakeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(self).offset(10);
         make.right.mas_equalTo(self).offset(-10);
@@ -171,16 +169,6 @@ static CGFloat const kNECourseTestTableViewCellImageRightSpace = 16.0;
         _scrollView.backgroundColor = [UIColor redColor];
     }
     return _scrollView;
-}
-
-- (UIView *)scrollContentView {
-    
-    if (!_scrollContentView) {
-        _scrollContentView = [[UIView alloc] init];
-        _scrollContentView.backgroundColor = [UIColor blackColor];
-    }
-    return _scrollView;
-    
 }
 
 @end

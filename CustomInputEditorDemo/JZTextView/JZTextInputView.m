@@ -29,7 +29,7 @@
 @synthesize text = _text;
 
 - (void)dealloc {
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
@@ -68,7 +68,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didShowKeyboardNotification:) name:UIKeyboardWillShowNotification object:nil];
 }
 
-
+#pragma mark - UITextViewDelegate
 - (void)textViewDidChange:(UITextView *)textView {
     //获取正在输入的textView
     PlaceholderTextView *placeholderTextView = (PlaceholderTextView *)textView;
@@ -88,7 +88,11 @@
                 placeholderTextView.text = [toBeString substringWithRange:rangeRange];
             }
         }
+        
+        //统计字符个数
         [self setTextTipLabel:placeholderTextView.text.length];
+        
+        //文字变化回调
         [self textViewDidChangeText:placeholderTextView];
     }
 }
@@ -111,10 +115,12 @@
 
 #pragma mark - ToolBarView 的点击事件处理
 - (void)didClickResponseWithInputType:(InputType)inputType {
+    //进来即默认弹出弹窗 
     if (inputType == ShowKeyBoardType) {
         [self.placeholderTextView resignFirstResponder];
         return;
     }
+    
     if (self.textInputViewDelegate && [self.textInputViewDelegate respondsToSelector:@selector(didClickInputType:)]) {
         [self.textInputViewDelegate didClickInputType:inputType];
     }
