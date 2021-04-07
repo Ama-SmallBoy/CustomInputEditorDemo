@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045644662574C542006D1102 /* CSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045644622574C541006D1102 /* CSAlertView.m */; };
+		045644722574C665006D1102 /* LifeDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456446D2574C665006D1102 /* LifeDataTool.m */; };
+		045644732574C665006D1102 /* RLMLifeImageRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456446F2574C665006D1102 /* RLMLifeImageRecord.m */; };
+		045644742574C665006D1102 /* RLMLifeMessageRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 045644712574C665006D1102 /* RLMLifeMessageRecord.m */; };
 		0457E10824B2FC5A00D928AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E10724B2FC5A00D928AA /* AppDelegate.m */; };
 		0457E10B24B2FC5A00D928AA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E10A24B2FC5A00D928AA /* SceneDelegate.m */; };
 		0457E10E24B2FC5A00D928AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E10D24B2FC5A00D928AA /* ViewController.m */; };
@@ -16,6 +20,41 @@
 		0457E11924B2FC5D00D928AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E11824B2FC5D00D928AA /* main.m */; };
 		0457E12324B2FC5D00D928AA /* CustomInputEditorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E12224B2FC5D00D928AA /* CustomInputEditorDemoTests.m */; };
 		0457E12E24B2FC5D00D928AA /* CustomInputEditorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E12D24B2FC5D00D928AA /* CustomInputEditorDemoUITests.m */; };
+		0457E15B24B2FE9C00D928AA /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E13E24B2FE9C00D928AA /* TZImageCropManager.m */; };
+		0457E15C24B2FE9C00D928AA /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E14024B2FE9C00D928AA /* TZAssetCell.m */; };
+		0457E15D24B2FE9C00D928AA /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E14124B2FE9C00D928AA /* TZVideoPlayerController.m */; };
+		0457E15E24B2FE9C00D928AA /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E14224B2FE9C00D928AA /* TZAssetModel.m */; };
+		0457E15F24B2FE9C00D928AA /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E14324B2FE9C00D928AA /* NSBundle+TZImagePicker.m */; };
+		0457E16024B2FE9C00D928AA /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E14624B2FE9C00D928AA /* UIView+Layout.m */; };
+		0457E16124B2FE9C00D928AA /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E14724B2FE9C00D928AA /* TZPhotoPreviewController.m */; };
+		0457E16224B2FE9C00D928AA /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0457E14824B2FE9C00D928AA /* TZImagePickerController.bundle */; };
+		0457E16324B2FE9C00D928AA /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E14924B2FE9C00D928AA /* TZProgressView.m */; };
+		0457E16424B2FE9C00D928AA /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E14D24B2FE9C00D928AA /* TZImageManager.m */; };
+		0457E16524B2FE9C00D928AA /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E14F24B2FE9C00D928AA /* TZPhotoPickerController.m */; };
+		0457E16624B2FE9C00D928AA /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E15024B2FE9C00D928AA /* TZPhotoPreviewCell.m */; };
+		0457E16724B2FE9C00D928AA /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E15624B2FE9C00D928AA /* TZImagePickerController.m */; };
+		0457E16824B2FE9C00D928AA /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E15724B2FE9C00D928AA /* TZLocationManager.m */; };
+		0457E16924B2FE9C00D928AA /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E15824B2FE9C00D928AA /* TZGifPhotoPreviewController.m */; };
+		0457E16A24B2FE9C00D928AA /* TZImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E15924B2FE9C00D928AA /* TZImageRequestOperation.m */; };
+		0457E17924B30AD000D928AA /* LifeTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E16F24B30AD000D928AA /* LifeTitleView.m */; };
+		0457E17A24B30AD000D928AA /* JZPhotoFlowListItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E17124B30AD000D928AA /* JZPhotoFlowListItemCell.m */; };
+		0457E17B24B30AD000D928AA /* JZPhotoFlowListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E17224B30AD000D928AA /* JZPhotoFlowListView.m */; };
+		0457E17C24B30AD000D928AA /* CSTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E17524B30AD000D928AA /* CSTextInputView.m */; };
+		0457E17D24B30AD000D928AA /* LifeHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E17824B30AD000D928AA /* LifeHeadView.m */; };
+		0457E18424B30F3300D928AA /* CSToolBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E18124B30F3300D928AA /* CSToolBarCell.m */; };
+		0457E18524B30F3300D928AA /* CSToolBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0457E18224B30F3300D928AA /* CSToolBarCell.xib */; };
+		0457E18624B30F3300D928AA /* CSToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E18324B30F3300D928AA /* CSToolBarView.m */; };
+		0457E18C24B3116C00D928AA /* PlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E18A24B3116B00D928AA /* PlaceholderTextView.m */; };
+		0457E19524B3137200D928AA /* UITextView+TextViewHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457E19324B3137200D928AA /* UITextView+TextViewHeight.m */; };
+		047108842612F4A100B92403 /* JZTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047108832612F4A100B92403 /* JZTextInputView.m */; };
+		0471089226131A7900B92403 /* JZImageTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471089126131A7900B92403 /* JZImageTextInputView.m */; };
+		0471089926132E9600B92403 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471089826132E9600B92403 /* TextViewController.m */; };
+		0476EC28261D7F5D004206D5 /* JZInputImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476EC27261D7F5D004206D5 /* JZInputImageView.m */; };
+		047C992925FB450300C98F5C /* UTHudUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C992725FB450300C98F5C /* UTHudUtil.m */; };
+		047C992F25FB456000C98F5C /* GifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C992D25FB456000C98F5C /* GifView.m */; };
+		04D0C3AA2611DEFB009ED7AB /* UITextView+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D0C3A92611DEFB009ED7AB /* UITextView+Keyboard.m */; };
+		04D0C3D4261245A0009ED7AB /* JZPhotoFlowListAddItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D0C3D3261245A0009ED7AB /* JZPhotoFlowListAddItemCell.m */; };
+		A7B0580C937959EE668BBAD1 /* libPods-CustomInputEditorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEF495E08AD811EBABFCA85 /* libPods-CustomInputEditorDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +75,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045644612574C541006D1102 /* CSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAlertView.h; sourceTree = "<group>"; };
+		045644622574C541006D1102 /* CSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAlertView.m; sourceTree = "<group>"; };
+		0456446C2574C665006D1102 /* RLMLifeImageRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMLifeImageRecord.h; sourceTree = "<group>"; };
+		0456446D2574C665006D1102 /* LifeDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeDataTool.m; sourceTree = "<group>"; };
+		0456446E2574C665006D1102 /* RLMLifeMessageRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMLifeMessageRecord.h; sourceTree = "<group>"; };
+		0456446F2574C665006D1102 /* RLMLifeImageRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMLifeImageRecord.m; sourceTree = "<group>"; };
+		045644702574C665006D1102 /* LifeDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeDataTool.h; sourceTree = "<group>"; };
+		045644712574C665006D1102 /* RLMLifeMessageRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLMLifeMessageRecord.m; sourceTree = "<group>"; };
 		0457E10324B2FC5A00D928AA /* CustomInputEditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomInputEditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0457E10624B2FC5A00D928AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0457E10724B2FC5A00D928AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +101,78 @@
 		0457E12924B2FC5D00D928AA /* CustomInputEditorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomInputEditorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0457E12D24B2FC5D00D928AA /* CustomInputEditorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomInputEditorDemoUITests.m; sourceTree = "<group>"; };
 		0457E12F24B2FC5D00D928AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0457E13C24B2FE9C00D928AA /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		0457E13D24B2FE9C00D928AA /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		0457E13E24B2FE9C00D928AA /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		0457E13F24B2FE9C00D928AA /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		0457E14024B2FE9C00D928AA /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		0457E14124B2FE9C00D928AA /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		0457E14224B2FE9C00D928AA /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		0457E14324B2FE9C00D928AA /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		0457E14424B2FE9C00D928AA /* TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLocationManager.h; sourceTree = "<group>"; };
+		0457E14524B2FE9C00D928AA /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		0457E14624B2FE9C00D928AA /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		0457E14724B2FE9C00D928AA /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		0457E14824B2FE9C00D928AA /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		0457E14924B2FE9C00D928AA /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		0457E14A24B2FE9C00D928AA /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		0457E14B24B2FE9C00D928AA /* TZImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageRequestOperation.h; sourceTree = "<group>"; };
+		0457E14C24B2FE9C00D928AA /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		0457E14D24B2FE9C00D928AA /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		0457E14E24B2FE9C00D928AA /* TZImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		0457E14F24B2FE9C00D928AA /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		0457E15024B2FE9C00D928AA /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		0457E15124B2FE9C00D928AA /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		0457E15224B2FE9C00D928AA /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		0457E15324B2FE9C00D928AA /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		0457E15424B2FE9C00D928AA /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		0457E15524B2FE9C00D928AA /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		0457E15624B2FE9C00D928AA /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		0457E15724B2FE9C00D928AA /* TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLocationManager.m; sourceTree = "<group>"; };
+		0457E15824B2FE9C00D928AA /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		0457E15924B2FE9C00D928AA /* TZImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageRequestOperation.m; sourceTree = "<group>"; };
+		0457E15A24B2FE9C00D928AA /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		0457E16F24B30AD000D928AA /* LifeTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeTitleView.m; sourceTree = "<group>"; };
+		0457E17024B30AD000D928AA /* CSTextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTextInputView.h; sourceTree = "<group>"; };
+		0457E17124B30AD000D928AA /* JZPhotoFlowListItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPhotoFlowListItemCell.m; sourceTree = "<group>"; };
+		0457E17224B30AD000D928AA /* JZPhotoFlowListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPhotoFlowListView.m; sourceTree = "<group>"; };
+		0457E17324B30AD000D928AA /* LifeHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeHeadView.h; sourceTree = "<group>"; };
+		0457E17424B30AD000D928AA /* JZPhotoFlowListItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPhotoFlowListItemCell.h; sourceTree = "<group>"; };
+		0457E17524B30AD000D928AA /* CSTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTextInputView.m; sourceTree = "<group>"; };
+		0457E17624B30AD000D928AA /* LifeTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeTitleView.h; sourceTree = "<group>"; };
+		0457E17724B30AD000D928AA /* JZPhotoFlowListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPhotoFlowListView.h; sourceTree = "<group>"; };
+		0457E17824B30AD000D928AA /* LifeHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeHeadView.m; sourceTree = "<group>"; };
+		0457E17F24B30F3300D928AA /* CSToolBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSToolBarCell.h; sourceTree = "<group>"; };
+		0457E18024B30F3300D928AA /* CSToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSToolBarView.h; sourceTree = "<group>"; };
+		0457E18124B30F3300D928AA /* CSToolBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSToolBarCell.m; sourceTree = "<group>"; };
+		0457E18224B30F3300D928AA /* CSToolBarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CSToolBarCell.xib; sourceTree = "<group>"; };
+		0457E18324B30F3300D928AA /* CSToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSToolBarView.m; sourceTree = "<group>"; };
+		0457E18924B30FCE00D928AA /* PublicConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicConfig.h; sourceTree = "<group>"; };
+		0457E18A24B3116B00D928AA /* PlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTextView.m; sourceTree = "<group>"; };
+		0457E18B24B3116B00D928AA /* PlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderTextView.h; sourceTree = "<group>"; };
+		0457E19324B3137200D928AA /* UITextView+TextViewHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TextViewHeight.m"; sourceTree = "<group>"; };
+		0457E19424B3137200D928AA /* UITextView+TextViewHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TextViewHeight.h"; sourceTree = "<group>"; };
+		047108822612F4A100B92403 /* JZTextInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZTextInputView.h; sourceTree = "<group>"; };
+		047108832612F4A100B92403 /* JZTextInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZTextInputView.m; sourceTree = "<group>"; };
+		0471089026131A7900B92403 /* JZImageTextInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZImageTextInputView.h; sourceTree = "<group>"; };
+		0471089126131A7900B92403 /* JZImageTextInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZImageTextInputView.m; sourceTree = "<group>"; };
+		0471089726132E9600B92403 /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		0471089826132E9600B92403 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		0476EC26261D7F5D004206D5 /* JZInputImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZInputImageView.h; sourceTree = "<group>"; };
+		0476EC27261D7F5D004206D5 /* JZInputImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZInputImageView.m; sourceTree = "<group>"; };
+		047C991225FB403000C98F5C /* CustomInputeditorDemo-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomInputeditorDemo-PrefixHeader.pch"; sourceTree = "<group>"; };
+		047C992725FB450300C98F5C /* UTHudUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTHudUtil.m; sourceTree = "<group>"; };
+		047C992825FB450300C98F5C /* UTHudUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTHudUtil.h; sourceTree = "<group>"; };
+		047C992D25FB456000C98F5C /* GifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifView.m; sourceTree = "<group>"; };
+		047C992E25FB456000C98F5C /* GifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifView.h; sourceTree = "<group>"; };
+		04D0C3A82611DEFB009ED7AB /* UITextView+Keyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+Keyboard.h"; sourceTree = "<group>"; };
+		04D0C3A92611DEFB009ED7AB /* UITextView+Keyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Keyboard.m"; sourceTree = "<group>"; };
+		04D0C3C026123AFA009ED7AB /* JZPhotoFlowListModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZPhotoFlowListModelProtocol.h; sourceTree = "<group>"; };
+		04D0C3D2261245A0009ED7AB /* JZPhotoFlowListAddItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZPhotoFlowListAddItemCell.h; sourceTree = "<group>"; };
+		04D0C3D3261245A0009ED7AB /* JZPhotoFlowListAddItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZPhotoFlowListAddItemCell.m; sourceTree = "<group>"; };
+		1A527C03B05D17DF5BA5F63D /* Pods-CustomInputEditorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomInputEditorDemo.debug.xcconfig"; path = "Target Support Files/Pods-CustomInputEditorDemo/Pods-CustomInputEditorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2434B1E809DE5BE79FD2B1E9 /* Pods-CustomInputEditorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomInputEditorDemo.release.xcconfig"; path = "Target Support Files/Pods-CustomInputEditorDemo/Pods-CustomInputEditorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CDEF495E08AD811EBABFCA85 /* libPods-CustomInputEditorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomInputEditorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B0580C937959EE668BBAD1 /* libPods-CustomInputEditorDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +201,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0456445F2574C541006D1102 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				045644602574C541006D1102 /* CSAlertView */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		045644602574C541006D1102 /* CSAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				045644612574C541006D1102 /* CSAlertView.h */,
+				045644622574C541006D1102 /* CSAlertView.m */,
+			);
+			path = CSAlertView;
+			sourceTree = "<group>";
+		};
+		0456446B2574C665006D1102 /* DraftModule */ = {
+			isa = PBXGroup;
+			children = (
+				045644702574C665006D1102 /* LifeDataTool.h */,
+				0456446D2574C665006D1102 /* LifeDataTool.m */,
+				0456446E2574C665006D1102 /* RLMLifeMessageRecord.h */,
+				045644712574C665006D1102 /* RLMLifeMessageRecord.m */,
+				0456446C2574C665006D1102 /* RLMLifeImageRecord.h */,
+				0456446F2574C665006D1102 /* RLMLifeImageRecord.m */,
+			);
+			path = DraftModule;
+			sourceTree = "<group>";
+		};
 		0457E0FA24B2FC5A00D928AA = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +238,8 @@
 				0457E12124B2FC5D00D928AA /* CustomInputEditorDemoTests */,
 				0457E12C24B2FC5D00D928AA /* CustomInputEditorDemoUITests */,
 				0457E10424B2FC5A00D928AA /* Products */,
+				10251522B872D59EE582400A /* Pods */,
+				84E79F8728E3AF2FD779E6BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +256,23 @@
 		0457E10524B2FC5A00D928AA /* CustomInputEditorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				047108812612F33300B92403 /* JZTextView */,
+				04D0C3B8261237E2009ED7AB /* JZPhotoFlowListView */,
+				0456446B2574C665006D1102 /* DraftModule */,
+				0456445F2574C541006D1102 /* CustomView */,
+				0457E18824B30FCE00D928AA /* Utils */,
+				0457E17E24B30F3300D928AA /* CustomToolBar */,
+				0457E16E24B30AD000D928AA /* CSView */,
+				0457E13B24B2FE9C00D928AA /* TZImagePickerController */,
 				0457E10624B2FC5A00D928AA /* AppDelegate.h */,
 				0457E10724B2FC5A00D928AA /* AppDelegate.m */,
 				0457E10924B2FC5A00D928AA /* SceneDelegate.h */,
 				0457E10A24B2FC5A00D928AA /* SceneDelegate.m */,
+				0471089726132E9600B92403 /* TextViewController.h */,
+				0471089826132E9600B92403 /* TextViewController.m */,
 				0457E10C24B2FC5A00D928AA /* ViewController.h */,
 				0457E10D24B2FC5A00D928AA /* ViewController.m */,
+				047C991225FB403000C98F5C /* CustomInputeditorDemo-PrefixHeader.pch */,
 				0457E10F24B2FC5A00D928AA /* Main.storyboard */,
 				0457E11224B2FC5D00D928AA /* Assets.xcassets */,
 				0457E11424B2FC5D00D928AA /* LaunchScreen.storyboard */,
@@ -137,6 +300,131 @@
 			path = CustomInputEditorDemoUITests;
 			sourceTree = "<group>";
 		};
+		0457E13B24B2FE9C00D928AA /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				0457E13C24B2FE9C00D928AA /* TZPhotoPreviewCell.h */,
+				0457E13D24B2FE9C00D928AA /* TZPhotoPickerController.h */,
+				0457E13E24B2FE9C00D928AA /* TZImageCropManager.m */,
+				0457E13F24B2FE9C00D928AA /* TZImageManager.h */,
+				0457E14024B2FE9C00D928AA /* TZAssetCell.m */,
+				0457E14124B2FE9C00D928AA /* TZVideoPlayerController.m */,
+				0457E14224B2FE9C00D928AA /* TZAssetModel.m */,
+				0457E14324B2FE9C00D928AA /* NSBundle+TZImagePicker.m */,
+				0457E14424B2FE9C00D928AA /* TZLocationManager.h */,
+				0457E14524B2FE9C00D928AA /* TZImagePickerController.h */,
+				0457E14624B2FE9C00D928AA /* UIView+Layout.m */,
+				0457E14724B2FE9C00D928AA /* TZPhotoPreviewController.m */,
+				0457E14824B2FE9C00D928AA /* TZImagePickerController.bundle */,
+				0457E14924B2FE9C00D928AA /* TZProgressView.m */,
+				0457E14A24B2FE9C00D928AA /* TZGifPhotoPreviewController.h */,
+				0457E14B24B2FE9C00D928AA /* TZImageRequestOperation.h */,
+				0457E14C24B2FE9C00D928AA /* TZAssetCell.h */,
+				0457E14D24B2FE9C00D928AA /* TZImageManager.m */,
+				0457E14E24B2FE9C00D928AA /* TZImageCropManager.h */,
+				0457E14F24B2FE9C00D928AA /* TZPhotoPickerController.m */,
+				0457E15024B2FE9C00D928AA /* TZPhotoPreviewCell.m */,
+				0457E15124B2FE9C00D928AA /* NSBundle+TZImagePicker.h */,
+				0457E15224B2FE9C00D928AA /* TZAssetModel.h */,
+				0457E15324B2FE9C00D928AA /* TZVideoPlayerController.h */,
+				0457E15424B2FE9C00D928AA /* TZPhotoPreviewController.h */,
+				0457E15524B2FE9C00D928AA /* UIView+Layout.h */,
+				0457E15624B2FE9C00D928AA /* TZImagePickerController.m */,
+				0457E15724B2FE9C00D928AA /* TZLocationManager.m */,
+				0457E15824B2FE9C00D928AA /* TZGifPhotoPreviewController.m */,
+				0457E15924B2FE9C00D928AA /* TZImageRequestOperation.m */,
+				0457E15A24B2FE9C00D928AA /* TZProgressView.h */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		0457E16E24B30AD000D928AA /* CSView */ = {
+			isa = PBXGroup;
+			children = (
+				04D0C3A82611DEFB009ED7AB /* UITextView+Keyboard.h */,
+				04D0C3A92611DEFB009ED7AB /* UITextView+Keyboard.m */,
+				0457E18B24B3116B00D928AA /* PlaceholderTextView.h */,
+				0457E18A24B3116B00D928AA /* PlaceholderTextView.m */,
+				0457E17324B30AD000D928AA /* LifeHeadView.h */,
+				0457E17824B30AD000D928AA /* LifeHeadView.m */,
+				0457E17024B30AD000D928AA /* CSTextInputView.h */,
+				0457E17524B30AD000D928AA /* CSTextInputView.m */,
+				0457E17624B30AD000D928AA /* LifeTitleView.h */,
+				0457E16F24B30AD000D928AA /* LifeTitleView.m */,
+			);
+			path = CSView;
+			sourceTree = "<group>";
+		};
+		0457E17E24B30F3300D928AA /* CustomToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				0457E18024B30F3300D928AA /* CSToolBarView.h */,
+				0457E18324B30F3300D928AA /* CSToolBarView.m */,
+				0457E17F24B30F3300D928AA /* CSToolBarCell.h */,
+				0457E18124B30F3300D928AA /* CSToolBarCell.m */,
+				0457E18224B30F3300D928AA /* CSToolBarCell.xib */,
+			);
+			path = CustomToolBar;
+			sourceTree = "<group>";
+		};
+		0457E18824B30FCE00D928AA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				047C992E25FB456000C98F5C /* GifView.h */,
+				047C992D25FB456000C98F5C /* GifView.m */,
+				047C992825FB450300C98F5C /* UTHudUtil.h */,
+				047C992725FB450300C98F5C /* UTHudUtil.m */,
+				0457E18924B30FCE00D928AA /* PublicConfig.h */,
+				0457E19424B3137200D928AA /* UITextView+TextViewHeight.h */,
+				0457E19324B3137200D928AA /* UITextView+TextViewHeight.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		047108812612F33300B92403 /* JZTextView */ = {
+			isa = PBXGroup;
+			children = (
+				047108822612F4A100B92403 /* JZTextInputView.h */,
+				047108832612F4A100B92403 /* JZTextInputView.m */,
+				0471089026131A7900B92403 /* JZImageTextInputView.h */,
+				0471089126131A7900B92403 /* JZImageTextInputView.m */,
+				0476EC26261D7F5D004206D5 /* JZInputImageView.h */,
+				0476EC27261D7F5D004206D5 /* JZInputImageView.m */,
+			);
+			path = JZTextView;
+			sourceTree = "<group>";
+		};
+		04D0C3B8261237E2009ED7AB /* JZPhotoFlowListView */ = {
+			isa = PBXGroup;
+			children = (
+				0457E17424B30AD000D928AA /* JZPhotoFlowListItemCell.h */,
+				0457E17124B30AD000D928AA /* JZPhotoFlowListItemCell.m */,
+				0457E17724B30AD000D928AA /* JZPhotoFlowListView.h */,
+				0457E17224B30AD000D928AA /* JZPhotoFlowListView.m */,
+				04D0C3C026123AFA009ED7AB /* JZPhotoFlowListModelProtocol.h */,
+				04D0C3D2261245A0009ED7AB /* JZPhotoFlowListAddItemCell.h */,
+				04D0C3D3261245A0009ED7AB /* JZPhotoFlowListAddItemCell.m */,
+			);
+			path = JZPhotoFlowListView;
+			sourceTree = "<group>";
+		};
+		10251522B872D59EE582400A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A527C03B05D17DF5BA5F63D /* Pods-CustomInputEditorDemo.debug.xcconfig */,
+				2434B1E809DE5BE79FD2B1E9 /* Pods-CustomInputEditorDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84E79F8728E3AF2FD779E6BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDEF495E08AD811EBABFCA85 /* libPods-CustomInputEditorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +432,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0457E13224B2FC5D00D928AA /* Build configuration list for PBXNativeTarget "CustomInputEditorDemo" */;
 			buildPhases = (
+				6FA5E8D9F78C4E0ECBE3C942 /* [CP] Check Pods Manifest.lock */,
 				0457E0FF24B2FC5A00D928AA /* Sources */,
 				0457E10024B2FC5A00D928AA /* Frameworks */,
 				0457E10124B2FC5A00D928AA /* Resources */,
@@ -241,7 +530,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0457E11624B2FC5D00D928AA /* LaunchScreen.storyboard in Resources */,
+				0457E16224B2FE9C00D928AA /* TZImagePickerController.bundle in Resources */,
 				0457E11324B2FC5D00D928AA /* Assets.xcassets in Resources */,
+				0457E18524B30F3300D928AA /* CSToolBarCell.xib in Resources */,
 				0457E11124B2FC5A00D928AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,15 +553,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FA5E8D9F78C4E0ECBE3C942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomInputEditorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0457E0FF24B2FC5A00D928AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0471089226131A7900B92403 /* JZImageTextInputView.m in Sources */,
+				04D0C3D4261245A0009ED7AB /* JZPhotoFlowListAddItemCell.m in Sources */,
+				0457E16124B2FE9C00D928AA /* TZPhotoPreviewController.m in Sources */,
+				0471089926132E9600B92403 /* TextViewController.m in Sources */,
+				0457E19524B3137200D928AA /* UITextView+TextViewHeight.m in Sources */,
+				0457E15F24B2FE9C00D928AA /* NSBundle+TZImagePicker.m in Sources */,
+				0457E15E24B2FE9C00D928AA /* TZAssetModel.m in Sources */,
+				0457E16624B2FE9C00D928AA /* TZPhotoPreviewCell.m in Sources */,
+				047C992925FB450300C98F5C /* UTHudUtil.m in Sources */,
 				0457E10E24B2FC5A00D928AA /* ViewController.m in Sources */,
+				0457E16524B2FE9C00D928AA /* TZPhotoPickerController.m in Sources */,
+				045644742574C665006D1102 /* RLMLifeMessageRecord.m in Sources */,
+				0457E15D24B2FE9C00D928AA /* TZVideoPlayerController.m in Sources */,
+				045644722574C665006D1102 /* LifeDataTool.m in Sources */,
+				0457E16724B2FE9C00D928AA /* TZImagePickerController.m in Sources */,
+				0457E16924B2FE9C00D928AA /* TZGifPhotoPreviewController.m in Sources */,
+				0457E17C24B30AD000D928AA /* CSTextInputView.m in Sources */,
+				0457E16824B2FE9C00D928AA /* TZLocationManager.m in Sources */,
+				047C992F25FB456000C98F5C /* GifView.m in Sources */,
+				0457E17A24B30AD000D928AA /* JZPhotoFlowListItemCell.m in Sources */,
+				0457E17B24B30AD000D928AA /* JZPhotoFlowListView.m in Sources */,
+				0457E16324B2FE9C00D928AA /* TZProgressView.m in Sources */,
+				0457E18C24B3116C00D928AA /* PlaceholderTextView.m in Sources */,
+				0476EC28261D7F5D004206D5 /* JZInputImageView.m in Sources */,
+				045644662574C542006D1102 /* CSAlertView.m in Sources */,
+				0457E18424B30F3300D928AA /* CSToolBarCell.m in Sources */,
 				0457E10824B2FC5A00D928AA /* AppDelegate.m in Sources */,
+				0457E16424B2FE9C00D928AA /* TZImageManager.m in Sources */,
+				0457E16A24B2FE9C00D928AA /* TZImageRequestOperation.m in Sources */,
+				047108842612F4A100B92403 /* JZTextInputView.m in Sources */,
+				0457E17D24B30AD000D928AA /* LifeHeadView.m in Sources */,
+				0457E18624B30F3300D928AA /* CSToolBarView.m in Sources */,
+				0457E15C24B2FE9C00D928AA /* TZAssetCell.m in Sources */,
+				0457E15B24B2FE9C00D928AA /* TZImageCropManager.m in Sources */,
 				0457E11924B2FC5D00D928AA /* main.m in Sources */,
+				0457E16024B2FE9C00D928AA /* UIView+Layout.m in Sources */,
+				045644732574C665006D1102 /* RLMLifeImageRecord.m in Sources */,
+				04D0C3AA2611DEFB009ED7AB /* UITextView+Keyboard.m in Sources */,
 				0457E10B24B2FC5A00D928AA /* SceneDelegate.m in Sources */,
+				0457E17924B30AD000D928AA /* LifeTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,32 +789,46 @@
 		};
 		0457E13324B2FC5D00D928AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A527C03B05D17DF5BA5F63D /* Pods-CustomInputEditorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9A479M7UJP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomInputEditorDemo/CustomInputeditorDemo-PrefixHeader.pch";
 				INFOPLIST_FILE = CustomInputEditorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhanggaotong.CustomInputEditorDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xdf.teacherapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "teacherapp-dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		0457E13424B2FC5D00D928AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2434B1E809DE5BE79FD2B1E9 /* Pods-CustomInputEditorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9A479M7UJP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomInputEditorDemo/CustomInputeditorDemo-PrefixHeader.pch";
 				INFOPLIST_FILE = CustomInputEditorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhanggaotong.CustomInputEditorDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xdf.teacherapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "teacherapp-dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
