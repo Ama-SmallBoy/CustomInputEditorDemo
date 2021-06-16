@@ -19,11 +19,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LifeHeadView : UIView
 
-@property(nonatomic,strong,readonly)NSString *titleString;
-@property(nonatomic,strong,readonly)NSString *storyContent;
-@property(nonatomic,weak) id<LifeHeadViewDelegate>lifeHeadViewDelegate;
--(void)setTitle:(NSString *)titleString storyContent:(NSString *)storyContent;
-@property(nonatomic,assign) BOOL isTitleEditting;
+@property(nonatomic, strong, readonly)NSString *titleString;
+@property(nonatomic, strong, readonly)NSString *storyContent;
+@property(nonatomic, weak) id<LifeHeadViewDelegate> lifeHeadViewDelegate;
+- (void)setTitle:(NSString *)titleString storyContent:(NSString *)storyContent;
+@property(nonatomic, assign) BOOL isTitleEditting;
 
 @end
 

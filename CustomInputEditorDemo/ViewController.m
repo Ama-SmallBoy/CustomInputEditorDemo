@@ -10,8 +10,8 @@
 #import "CSTextInputView.h"
 #import "TextViewController.h"
 
-@interface ViewController () <JZTextInputViewDelegate>
-@property (nonatomic, strong) CSTextInputView *textInputView;
+@interface ViewController () //<JZTextInputViewDelegate>
+//@property (nonatomic, strong) CSTextInputView *textInputView;
 @end
 
 @implementation ViewController
@@ -36,21 +36,21 @@
     [self.navigationController pushViewController:editorViewController animated:YES];
 }
 
-#pragma mark - CSTextInputViewDelegate
-- (void)textViewDidChange:(PlaceholderTextView *_Nonnull )textView {
-    NSLog(@"=====+++====%lf",self.textInputView.keyboardHeight);
-}
-
-- (void)didClickInputType:(InputType)inputType {
-    
-}
-
-- (CSTextInputView *)textInputView {
-    if (!_textInputView) {
-        _textInputView = [[CSTextInputView alloc] init];
-        _textInputView.textInputViewDelegate = self;
-    }
-    return _textInputView;
-}
+//#pragma mark - CSTextInputViewDelegate
+//- (void)textViewDidChange:(PlaceholderTextView *_Nonnull )textView {
+//    NSLog(@"=====+++====%lf",self.textInputView.keyboardHeight);
+//}
+//
+//- (void)didClickInputType:(InputType)inputType {
+//
+//}
+//
+//- (CSTextInputView *)textInputView {
+//    if (!_textInputView) {
+//        _textInputView = [[CSTextInputView alloc] init];
+//        _textInputView.textInputViewDelegate = self;
+//    }
+//    return _textInputView;
+//}
 
 @end

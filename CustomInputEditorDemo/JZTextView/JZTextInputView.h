@@ -7,17 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
 #import "CSToolBarView.h"
 #import "PlaceholderTextView.h"
 
-@protocol JZTextInputViewDelegate <NSObject>
+@class JZTextInputView;
 
-//TODO: -  暂时这样处理 抽离后，再次进行优化处理
+@protocol JZTextInputViewDelegate <NSObject>
 
 /// 输入文本的
 /// @param textView  文本输入框
-- (void)textViewDidChange:(PlaceholderTextView *_Nonnull )textView;
+/// @param isNeeded  是否需要更新高度
+- (void)textViewDidChange:(JZTextInputView *_Nonnull )textView refreshHeightIfNeeded:(BOOL)isNeeded;
 
 /// 点击ToolbarItem的动作
 /// @param inputType item 类型
@@ -41,6 +41,10 @@
 @property(nonatomic, copy) NSString * _Nullable defaultText;
 ///获取text
 @property(nonatomic, copy) NSString * _Nullable text;
+///获取Height
+@property(nonatomic, readonly, assign) CGFloat height;
+
+
 
 @end
 

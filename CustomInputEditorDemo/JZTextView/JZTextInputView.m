@@ -10,13 +10,15 @@
 
 #define kMaxLength 500
 #define ToolBarHeight 40
+#define ExtentHeight 20
 
 @interface JZTextInputView () <CSToolBarViewDelegate, UITextViewDelegate>
 
 @property(nonatomic, strong) PlaceholderTextView *placeholderTextView;
 @property(nonatomic, strong) UILabel *tipLabel;
 @property(nonatomic, strong) CSToolBarView *toolBarView;
-@property(nonatomic, assign, readwrite) CGFloat keyboardHeight;
+@property(nonatomic, readwrite, assign) CGFloat keyboardHeight;
+@property(nonatomic, readwrite, assign) CGFloat height;
 
 @end
 
@@ -27,6 +29,7 @@
 @synthesize keyboardHeight = _keyboardHeight;
 @synthesize defaultText = _defaultText;
 @synthesize text = _text;
+@synthesize height = _height;
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
@@ -52,14 +55,20 @@
     [_tipLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(self);
         make.right.equalTo(self).offset(-9.0);
-        make.height.equalTo(@20);// 30 高度
+        make.height.equalTo(@(ExtentHeight));// 30 高度
     }];
     
     [_placeholderTextView mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(_tipLabel.mas_top).offset(0);
-        make.right.equalTo(self).offset(0);
-        make.left.equalTo(self).offset(0);
-        make.top.equalTo(self).offset(0);
+        make.bottom.equalTo(_tipLabel.mas_top).priorityHigh();
+        make.right.left.top.equalTo(self);
+    }];
+}
+
+- (void)layoutSubviews {
+    CGFloat height = [self.placeholderTextView sizeThatFits:CGSizeMake(self.placeholderTextView.frame.size.width, MAXFLOAT)].height;
+    self.height = height + ExtentHeight;
+    [_placeholderTextView mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.height.equalTo(@(height));
     }];
 }
 
@@ -98,9 +107,21 @@
 }
 
 - (void)textViewDidChangeText:(PlaceholderTextView *)textView {
-    if (self.textInputViewDelegate && [self.textInputViewDelegate respondsToSelector:@selector(textViewDidChange:)]) {
-        [self.textInputViewDelegate textViewDidChange:textView];
+    float textViewHeight = [textView sizeThatFits:CGSizeMake(textView.frame.size.width, MAXFLOAT)].height + ExtentHeight;
+    
+    BOOL isNeeded = (self.height != textViewHeight);
+    if (isNeeded) {
+        self.height = textViewHeight;
     }
+    
+    ///刷新自身高度
+    if (self.textInputViewDelegate && [self.textInputViewDelegate respondsToSelector:@selector(textViewDidChange:refreshHeightIfNeeded:)]) {
+        [self.textInputViewDelegate textViewDidChange:self refreshHeightIfNeeded:isNeeded];
+    }
+    
+    ///规避 莫名情况导致 textView的急剧增大，从而导致 内部滚动式偏移量不正确的问题
+    textView.contentSize = CGSizeZero;
+    textView.contentOffset = CGPointZero;
 }
 
 #pragma mark - 通知响应方法
@@ -112,7 +133,6 @@
         self.keyboardHeight = deltaY + SafeAreaTopHeight;
     }];
 }
-
 #pragma mark - ToolBarView 的点击事件处理
 - (void)didClickResponseWithInputType:(InputType)inputType {
     //进来即默认弹出弹窗 
