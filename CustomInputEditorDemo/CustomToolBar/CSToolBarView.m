@@ -3,7 +3,7 @@
 //  UPOC_Teacher
 //
 //  Created by a on 2019/12/11.
-//  Copyright © 2019 北京新东方教育科技(集团)有限公司. All rights reserved.
+//  Copyright © 2019 星梦. All rights reserved.
 //
 
 #import "CSToolBarView.h"

@@ -3,7 +3,7 @@
 //  UPOC_Teacher
 //  系统参数配置
 //  Created by wangjiawei on 15/12/7.
-//  Copyright © 2015年 北京新东方教育科技(集团)有限公司. All rights reserved.
+//  Copyright © 2015年 星梦. All rights reserved.
 //
 
 #ifndef PublicConfig_h

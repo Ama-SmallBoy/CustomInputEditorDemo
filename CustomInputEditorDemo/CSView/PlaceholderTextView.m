@@ -3,7 +3,7 @@
 //  UPOC_Teacher
 //
 //  Created by Jessica on 16/6/7.
-//  Copyright © 2016年 北京新东方教育科技(集团)有限公司. All rights reserved.
+//  Copyright © 2016年 星梦. All rights reserved.
 //
 
 #import "PlaceholderTextView.h"
